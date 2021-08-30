@@ -1,0 +1,206 @@
+<html>
+<head></head>
+<title></title>
+<body>
+  <style>
+  @import url(https://fonts.googleapis.com/css?family=Lato);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+body {
+    font-family: 'Lato', sans-serif;
+    color: #FFF;
+    background: #322f30;
+    -webkit-font-smoothing: antialiased;
+  margin: 0;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+p > a:hover{
+    color: #d9d9d9;
+    text-decoration:  underline;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin:  1% 0 1% 0;
+}
+._12 {
+    font-size: 1.2em;
+}
+#welcome-section {
+    font-size: 2em;
+   height: 100%;
+}
+ul {
+    padding:0;
+    list-style: none;
+}
+.footer-social-icons {
+    width: 350px;
+    display:block;
+    margin: 0 auto;
+}
+.social-icon {
+    color: #fff;
+}
+ul.social-icons {
+    margin-top: 10px;
+}
+.social-icons li {
+    vertical-align: top;
+    display: inline;
+    height: 200px;
+}
+.social-icons a {
+    color: #fff;
+    text-decoration: none;
+
+}
+.fa-facebook {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-facebook:hover {
+    background-color: #3d5b99;
+}
+.fa-twitter {
+    padding:10px 12px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-twitter:hover {
+    background-color: #00aced;
+}
+
+
+}
+.fa-at {
+    padding:20px 20px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+
+}
+.fa-at:hover {
+    background-color: #e64a41;
+}
+.fa-mobile {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-mobile:hover {
+    background-color: #0073a4;
+}
+.fa-github {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+
+}
+.fa-github:hover {
+    background-color: #5a32a3;
+}
+
+#navbar{
+  position: fixed;
+  height: 100%;
+}
+.ulnavbar{
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  background-color: #00a087;
+  padding: 14px  auto;
+  margin: 0;
+  font-size: 23px;
+
+}
+
+li a {
+  float: right;
+  color: white;
+  padding: 14px 16px;
+}
+@media (min-height: 350px) .ulnavbar{
+  font-size: 23px;
+}
+
+  </style>
+  <nav id="navbar">
+    <div>
+        <ul class="ulnavbar">
+          <li><a href="#contact">Contact</a>
+          <li><a href="#work">Work</a></li>
+          <li><a href="#about">About</a></li>
+
+        </ul>
+    </div>
+  </nav>
+
+  <br><br><br><br><br>
+  <p id="about">Hey</p>
+  <p> I am Shubham a web developer</p>
+  <br>
+
+  <div id ="projects">
+      <p id="work"><p class="project-tile">
+        These are some of my projects
+      </p>
+      <div>
+        <a href=https://codepen.io/shubham341056/full/KKarqvy><img src="https://assets.codepen.io/260521/internal/screenshots/pens/NNvBQW.default.png?format=auto&amp;ha=false&amp;height=400&amp;quality=75&amp;v=1&amp;version=1484146480&amp;width=700" alt="See the source image" class=" nofocus" tabindex="0" aria-label="See the source image" data-bm="5"></a>
+      </div>
+
+
+      <div>
+        <a href=https://codepen.io/shubham341056/full/zYNyooK> <img src="https://assets.codepen.io/1952994/internal/screenshots/pens/bjQBNV.default.png?fit=cover&amp;format=auto&amp;ha=false&amp;height=360&amp;quality=75&amp;v=2&amp;version=1597869561&amp;width=640" alt="See the source image" class=" nofocus" tabindex="0" aria-label="See the source image" data-bm="5"></a>
+      </div>
+      <div><a href="https://codepen.io/shubham341056/full/RwKvwpO"><img src="https://assets.codepen.io/2308153/internal/screenshots/pens/MqPJMO.default.png?fit=cover&amp;format=auto&amp;ha=false&amp;height=360&amp;quality=75&amp;v=2&amp;version=1537849849&amp;width=640" alt="See the source image" class=" nofocus" tabindex="0" aria-label="See the source image" data-bm="5"></a></div>
+        </p>
+      </div>
+      <div>
+        <a href="https://codepen.io/shubham341056/pen/WNpvwvY?editors=1000"><img src="http://www.clairescoding.co.uk/wp-content/uploads/2019/05/Day-15-Technical-Documentation-page-on-desktop-1040x565.jpg"></a>
+      </div>
+
+
+
+      <div class="footer-social-icons">
+          <div id="welcome-section">
+          <h1 id="welcome-section">Let's work together...</h1>
+      </div>
+        <p id="contact"><i>How do you take your coffee?</i></p>
+        <ul class="social-icons">
+
+          <li><a href="" class="social-icon"> <i class="fa fa-github"></i>Github</a></li>
+          <li><a href="<a href="https://twitter.com/Shubham18111998?ref_src=twsrc%5Etfw" class="social-icon"> <i class="fa fa-twitter"></i>Twitter</a></li>
+          <li><a href="mailto: shubham.sg5000@gmail.com" class="social-icon"> <i class="fa fa-at"></i>Send a mail</a></li>
+        </ul>
+</div>
+</body>
